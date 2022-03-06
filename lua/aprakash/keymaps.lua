@@ -44,10 +44,6 @@ kmap("n", "<leader>e", ":Lex 30<cr>", opts)
 --jk to type faster
 kmap("i", "jk", "<ESC>", opts)
 
--- normal mode, interchanged <j> and <k>
-kmap("n", "j", "k", opts)
-kmap("n", "k", "j", opts)
-
 --Visual 
 --Stay in indent mode
 kmap("v", "<", "<gv", opts)
@@ -64,7 +60,9 @@ kmap("v", "<A-j>", ":m .-2<CR>==", opts)
 --kmap("t", "<C-j>", "<C-\\><C-N><C-w>k", term_opts)
 --kmap("t", "<C-l>", "<C-\\><C-N><C-w>l", term_opts)
 
-
+-- keymap("n", "<leader>f", "<cmd>Telescope find_files<cr>", opts)
+kmap("n", "<leader>f", "<cmd>lua require'telescope.builtin'.find_files(require('telescope.themes').get_dropdown({ previewer = false }))<cr>", opts)
+kmap("n", "<c-t>", "<cmd>Telescope live_grep<cr>", opts)
 
 
 

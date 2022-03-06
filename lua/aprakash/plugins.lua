@@ -57,7 +57,8 @@ return packer.startup(function(use)
   use "hrsh7th/cmp-cmdline" -- cmdline completions
   use "saadparwaiz1/cmp_luasnip" -- snippet completions
   use "hrsh7th/cmp-nvim-lsp" -- lsp completion
-  
+  use "hrsh7th/cmp-nvim-lua" -- lua completion 
+  	
   -- snippets
   use "L3MON4D3/LuaSnip" --snippet engine
   use "rafamadriz/friendly-snippets" -- a bunch of snippets to use
@@ -74,8 +75,21 @@ return packer.startup(function(use)
   use {
     'neovim/nvim-lspconfig',
     'williamboman/nvim-lsp-installer',
-   }
+   } -- lsp config
+
+  -- TELESCOPE
+  use "nvim-telescope/telescope.nvim" -- telescope
+  use "nvim-telescope/telescope-media-files.nvim" -- for images etc
   
+  --TREESITTER
+  use { "nvim-treesitter/nvim-treesitter",
+  run= ":TSUpdate", 
+  } -- treesitter
+  use "p00f/nvim-ts-rainbow" -- to distinguish paranthesis
+  
+  --GIT 
+  use "Lewis6991/gitsigns.nvim"
+
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if PACKER_BOOTSTRAP then
