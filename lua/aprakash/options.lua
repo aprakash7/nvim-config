@@ -12,6 +12,7 @@ local options= {
     showmode= true,			-- show mode
     smartindent= true,			-- indentation
     cmdheight= 2,			-- more space in the neovim cmd line to display messages
+    termguicolors= true, 		-- terminal GUI colors 
     ignorecase= true,			-- ignore case in search patterns [S, s] -> same 
     hlsearch= true,			-- highlight all matches on previous search patterns
     showtabline= 2,			-- always show tabs (2)
@@ -27,7 +28,7 @@ local options= {
     updatetime = 300,                   -- faster completion (4000ms default)
     wrap = false,			-- display lines as one long line
     syntax= 'ON',			-- highlights the syntax
-    colorcolumn = '150',           	-- Show col for max line length
+   colorcolumn = '150',           	-- Show col for max line length
 }
 
 --i, j in pairs(local obj) do for loop
