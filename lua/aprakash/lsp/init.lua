@@ -5,3 +5,4 @@ end
 
 require("aprakash.lsp.lsp-installer")
 require("aprakash.lsp.handlers").setup()
+require "aprakash.lsp.null-ls"

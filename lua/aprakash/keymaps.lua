@@ -60,14 +60,15 @@ kmap("v", "<A-j>", ":m .-2<CR>==", opts)
 --kmap("t", "<C-j>", "<C-\\><C-N><C-w>k", term_opts)
 --kmap("t", "<C-l>", "<C-\\><C-N><C-w>l", term_opts)
 
+--Telescope--
 -- keymap("n", "<leader>f", "<cmd>Telescope find_files<cr>", opts)
 kmap("n", "<leader>f", "<cmd>lua require'telescope.builtin'.find_files(require('telescope.themes').get_dropdown({ previewer = false }))<cr>", opts)
 kmap("n", "<c-t>", "<cmd>Telescope live_grep<cr>", opts)
 
+-- Nvimtree
+kmap("n", "<leader>e", ":NvimTreeToggle<cr>", opts)
 
-
-
-
+kmap("n", "<leader>f", ":Format<cr>", opts)
 
 
 
