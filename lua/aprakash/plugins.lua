@@ -96,7 +96,11 @@ return packer.startup(function(use)
   
   --GIT 
   use "Lewis6991/gitsigns.nvim"
-
+  
+  -- STARTUP 
+  use 'goolord/alpha-nvim'
+  use 'lewis6991/impatient.nvim' --faster loading
+  
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if PACKER_BOOTSTRAP then
