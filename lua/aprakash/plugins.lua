@@ -54,7 +54,11 @@ return packer.startup(function(use)
   use 'kyazdani42/nvim-tree.lua'  -- Nvim tree
   use "akinsho/bufferline.nvim"   -- Bufferline 
   use "akinsho/toggleterm.nvim"   -- terminal extension
+  use "ahmedkhalf/project.nvim"
 
+  --LUA LINE 
+  use 'nvim-lualine/lualine.nvim'
+ 
   -- cmp plugins
   use "hrsh7th/nvim-cmp" -- The completion plugin
   use "hrsh7th/cmp-buffer" -- buffer completions
