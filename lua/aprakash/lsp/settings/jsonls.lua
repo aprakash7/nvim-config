@@ -37,7 +37,7 @@ local schemas = {
     url = "https://raw.githubusercontent.com/rescript-lang/rescript-compiler/8.2.0/docs/docson/build-schema.json",
   },
   {
-    description = "Prettier config"
+    description = "Prettier config",
     fileMatch = {
       ".prettierrc",
       ".prettierrc.json",
