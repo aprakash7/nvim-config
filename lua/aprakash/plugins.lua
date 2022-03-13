@@ -82,10 +82,8 @@ return packer.startup(function(use)
 	use("rstacruz/vim-hyperstyle") -- CSS autocomplete helps, like m: will do margin:
 
 	-- LSP installer
-	use({
-		"neovim/nvim-lspconfig",
-		"williamboman/nvim-lsp-installer",
-	}) -- lsp config
+	use("neovim/nvim-lspconfig")
+	use("williamboman/nvim-lsp-installer") -- lsp config
 	use("jose-elias-alvarez/null-ls.nvim") -- Null-LS formatting and linting
 
 	-- TELESCOPE
@@ -103,7 +101,10 @@ return packer.startup(function(use)
 	use("goolord/alpha-nvim")
 	use("lewis6991/impatient.nvim") --faster loading
 
-	-- Automatically set up your configuration after cloning packer.nvim
+	--INDENTATION
+	use "lukas-reineke/indent-blankline.nvim"
+
+    -- Automatically set up your configuration after cloning packer.nvim
 	-- Put this at the end after all plugins
 	if PACKER_BOOTSTRAP then
 		require("packer").sync()

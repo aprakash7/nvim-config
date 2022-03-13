@@ -1,7 +1,7 @@
 local cmp_status_ok, cmp = pcall(require, "cmp")
 if not cmp_status_ok then
   return
-end 
+end
 
 local snip_status_ok, luasnip = pcall(require, "luasnip")
 if not snip_status_ok then
@@ -128,5 +128,5 @@ cmp.setup {
   experimental = {
     ghost_text = false,
     native_menu = false,
-  }, 
+  },
 }
