@@ -44,12 +44,12 @@ kmap("n", "<leader>e", ":Lex 30<cr>", opts)
 --jk to type faster
 kmap("i", "jk", "<ESC>", opts)
 
---Visual 
+--Visual
 --Stay in indent mode
 kmap("v", "<", "<gv", opts)
 kmap("v", ">", ">gv", opts)
 
--- Move text up and down 
+-- Move text up and down
 kmap("v", "<A-k>", ":m .+1<CR>==", opts)
 kmap("v", "<A-j>", ":m .-2<CR>==", opts)
 
