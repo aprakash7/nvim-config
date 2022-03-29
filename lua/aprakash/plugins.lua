@@ -44,6 +44,7 @@ return packer.startup(function(use)
 	--My plugins here
 	--lazy loading is when plugins don't run till a specific <cmd> is entered
 
+	--essentials
 	use("wbthomason/packer.nvim") -- Have packer manage itself
 	use("nvim-lua/popup.nvim") -- An implementation of the Popup API from vim in Neovim
 	use("nvim-lua/plenary.nvim") -- Useful lua functions used ny lots of plugins
@@ -55,7 +56,8 @@ return packer.startup(function(use)
 	use("akinsho/bufferline.nvim") -- Bufferline
 	use("moll/vim-bbye") -- needed for bufferline
 	use("akinsho/toggleterm.nvim") -- terminal extension
-	use("ahmedkhalf/project.nvim")
+	use("ahmedkhalf/project.nvim") --try this
+	use("karb94/neoscroll.nvim")	-- smooth scrolling
 
 	--LUA LINE
 	use("nvim-lualine/lualine.nvim")
