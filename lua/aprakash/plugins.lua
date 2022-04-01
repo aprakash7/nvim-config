@@ -79,6 +79,7 @@ return packer.startup(function(use)
 	use("lunarvim/colorschemes") -- different colorschemes
 	use("folke/tokyonight.nvim") -- VScode like theme+ supports LSP and plugins
 	use("tiagovla/tokyodark.nvim") -- tokyo dark
+	use('ful1e5/onedark.nvim')	-- onedark
 
 	-- CSS
 	use("rstacruz/vim-hyperstyle") -- CSS autocomplete helps, like m: will do margin:

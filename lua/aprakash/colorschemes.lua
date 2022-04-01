@@ -10,7 +10,7 @@ local colorscheme = 'tokyonight'
 
 --pcall(function, args)
 local status_ok, _ = pcall(vim.cmd, "colorscheme " .. colorscheme)  --pcall (protected call) and .. signifies string concatenation
-if not status_ok then 
+if not status_ok then
     vim.notify("colorscheme " .. colorscheme .. "not found!")
-    return 
-end 
+    return
+end
