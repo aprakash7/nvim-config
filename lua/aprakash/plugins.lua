@@ -58,7 +58,7 @@ return packer.startup(function(use)
 	use("akinsho/toggleterm.nvim") -- terminal extension
 	use("ahmedkhalf/project.nvim") --try this
 	use("karb94/neoscroll.nvim")	-- smooth scrolling
-
+	use('andweeb/presence.nvim') -- discord rich presence
 	--LUA LINE
 	use("nvim-lualine/lualine.nvim")
 
@@ -80,6 +80,7 @@ return packer.startup(function(use)
 	use("folke/tokyonight.nvim") -- VScode like theme+ supports LSP and plugins
 	use("tiagovla/tokyodark.nvim") -- tokyo dark
 	use('ful1e5/onedark.nvim')	-- onedark
+	use("aprakash7/nvcode-color-schemes.vim") --new colorscheme
 
 	-- CSS
 	use("rstacruz/vim-hyperstyle") -- CSS autocomplete helps, like m: will do margin:
@@ -105,7 +106,8 @@ return packer.startup(function(use)
 	use("lewis6991/impatient.nvim") --faster loading
 
 	--INDENTATION
-	use "lukas-reineke/indent-blankline.nvim"
+	--use "lukas-reineke/indent-blankline.nvim"
+
 
     -- Automatically set up your configuration after cloning packer.nvim
 	-- Put this at the end after all plugins

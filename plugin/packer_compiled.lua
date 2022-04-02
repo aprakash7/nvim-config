@@ -144,11 +144,6 @@ _G.packer_plugins = {
     path = "/Users/aprakash/.local/share/nvim/site/pack/packer/start/impatient.nvim",
     url = "https://github.com/lewis6991/impatient.nvim"
   },
-  ["indent-blankline.nvim"] = {
-    loaded = true,
-    path = "/Users/aprakash/.local/share/nvim/site/pack/packer/start/indent-blankline.nvim",
-    url = "https://github.com/lukas-reineke/indent-blankline.nvim"
-  },
   ["lualine.nvim"] = {
     loaded = true,
     path = "/Users/aprakash/.local/share/nvim/site/pack/packer/start/lualine.nvim",
@@ -163,6 +158,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/aprakash/.local/share/nvim/site/pack/packer/start/null-ls.nvim",
     url = "https://github.com/jose-elias-alvarez/null-ls.nvim"
+  },
+  ["nvcode-color-schemes.vim"] = {
+    loaded = true,
+    path = "/Users/aprakash/.local/share/nvim/site/pack/packer/start/nvcode-color-schemes.vim",
+    url = "https://github.com/aprakash7/nvcode-color-schemes.vim"
   },
   ["nvim-cmp"] = {
     loaded = true,
@@ -218,6 +218,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/aprakash/.local/share/nvim/site/pack/packer/start/popup.nvim",
     url = "https://github.com/nvim-lua/popup.nvim"
+  },
+  ["presence.nvim"] = {
+    loaded = true,
+    path = "/Users/aprakash/.local/share/nvim/site/pack/packer/start/presence.nvim",
+    url = "https://github.com/andweeb/presence.nvim"
   },
   ["project.nvim"] = {
     loaded = true,
