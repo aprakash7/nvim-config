@@ -76,11 +76,12 @@ return packer.startup(function(use)
 	use("rafamadriz/friendly-snippets") -- a bunch of snippets to use
 
 	-- COLORSCHEMES
+	use({ "norcalli/nvim-colorizer.lua", run = ":ColorizerAttachToBuffer" }) -- show colors as you type (RGB)
 	use("lunarvim/colorschemes") -- different colorschemes
 	use("folke/tokyonight.nvim") -- VScode like theme+ supports LSP and plugins
 	use("tiagovla/tokyodark.nvim") -- tokyo dark
 	use('ful1e5/onedark.nvim')	-- onedark
-	use("aprakash7/nvcode-color-schemes.vim") --new colorscheme
+	use("aprakash7/nvcode-color-schemes.vim") --new colorscheme for behave
 
 	-- CSS
 	use("rstacruz/vim-hyperstyle") -- CSS autocomplete helps, like m: will do margin:
@@ -97,6 +98,7 @@ return packer.startup(function(use)
 	--TREESITTER
 	use({ "nvim-treesitter/nvim-treesitter", run = ":TSUpdate" }) -- treesitter
 	use("p00f/nvim-ts-rainbow") -- to distinguish paranthesis
+	use("nvim-treesitter/playground") -- for getting the types
 
 	--GIT
 	use("Lewis6991/gitsigns.nvim")
