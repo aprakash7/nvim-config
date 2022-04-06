@@ -55,10 +55,13 @@ return packer.startup(function(use)
 	use("kyazdani42/nvim-tree.lua") -- Nvim tree
 	use("akinsho/bufferline.nvim") -- Bufferline
 	use("moll/vim-bbye") -- needed for bufferline
-	use("akinsho/toggleterm.nvim") -- terminal extension
+    	use("akinsho/toggleterm.nvim") -- terminal extension
 	use("ahmedkhalf/project.nvim") --try this
 	use("karb94/neoscroll.nvim")	-- smooth scrolling
+
 	use('andweeb/presence.nvim') -- discord rich presence
+	use('davidgranstrom/nvim-markdown-preview') -- markdown preview
+
 	--LUA LINE
 	use("nvim-lualine/lualine.nvim")
 
