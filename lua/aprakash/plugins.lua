@@ -83,7 +83,7 @@ return packer.startup(function(use)
 	use("lunarvim/colorschemes") -- different colorschemes
 	use("folke/tokyonight.nvim") -- VScode like theme+ supports LSP and plugins
 	use("tiagovla/tokyodark.nvim") -- tokyo dark
-	use('ful1e5/onedark.nvim')	-- onedark
+    	-- use('ful1e5/onedark.nvim')	-- onedark
 	use("aprakash7/nvcode-color-schemes.vim") --new colorscheme for behave
 
 	-- CSS
