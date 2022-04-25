@@ -1,6 +1,6 @@
 ## Try out this config
 
-### **NOTE** : This README template is straight outta [LunarVim/Neovim-from-scratch](https://github.com/LunarVim/Neovim-from-scratch/)
+### NOTE : This README template is straight outta [LunarVim/Neovim-from-scratch](https://github.com/LunarVim/Neovim-from-scratch/)
 
 Make sure to remove or move your current `nvim` directory
 
