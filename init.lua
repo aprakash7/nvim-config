@@ -24,6 +24,7 @@ require("aprakash.neoscroll")
 require("aprakash.presence")
 -- require("aprakash.colorscheme.onedark")
 require("aprakash.colorscheme.colorizer")
+
 -- require("aprakash.markdown")
 
 -- vim.cmd([[

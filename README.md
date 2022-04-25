@@ -1,6 +1,6 @@
 ## Try out this config
 
-#### NOTE: This README template is straight outta [LunarVim/Neovim-from-scratch](https://github.com/LunarVim/Neovim-from-scratch/)
+### **NOTE** : This README template is straight outta [LunarVim/Neovim-from-scratch](https://github.com/LunarVim/Neovim-from-scratch/)
 
 Make sure to remove or move your current `nvim` directory
 
@@ -61,3 +61,26 @@ Next we need to install python support (node is optional)
 > The computing scientist's main challenge is not to get confused by the complexities of his own making. 
 
 \- Edsger W. Dijkstra
+
+## SCREENSHOTS:
+Alpha Dashboard
+![Dashboard](images/Dashboard.png)
+Werk
+![werk](images/werk.png)
+Split
+![split](images/split.png)
+Telescope
+![telescope](images/livegrep.png)
+Terminal
+![terminal](images/terminal.png)
+Lazygit
+![Lazygit](images/Lazygit.png)
+Diagnostics, completion, linting, formatting, gitsigns, treesitter and lots more..
+![completion](images/completion.png)
+
+I'm currently bringing [Sublime Text's Behave](https://github.com/fnky/behave-theme) to Neovim and I hope to be send a PR soon. If you are interested in checking out the unofficial version, simply install the  plugin ```'aprakash/nvcode-color-schemes.vim'``` and 
+```
+:colorscheme behave
+```
+
+This is a work in progress (mostly forever). Feel free to add plugins or create issues for any bugs or problems you face.
