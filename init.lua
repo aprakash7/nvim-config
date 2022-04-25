@@ -22,18 +22,19 @@ require("aprakash.projects")
 -- require("aprakash.indentline")
 require("aprakash.neoscroll")
 require("aprakash.presence")
-require("aprakash.colorscheme.onedark")
+-- require("aprakash.colorscheme.onedark")
 require("aprakash.colorscheme.colorizer")
 -- require("aprakash.markdown")
-vim.cmd([[ 
-let g:nvcode_termcolors=256
 
-syntax on
-colorscheme behave " Or whatever colorscheme you make
+-- vim.cmd([[
+-- let g:nvcode_termcolors=256
 
-" checks if your terminal has 24-bit color support"
-if (has("termguicolors"))
-   set termguicolors
-   hi LineNr ctermbg=NONE guibg=NONE
-endif
-]])
+-- syntax on
+-- colorscheme behave " Or whatever colorscheme you make
+
+-- "checks if your terminal has 24-bit color support"
+-- if (has("termguicolors"))
+-- set termguicolors
+-- hi LineNr ctermbg=NONE guibg=NONE
+-- endif
+-- ]])
