@@ -49,7 +49,7 @@ return packer.startup(function(use)
 	use("nvim-lua/popup.nvim") -- An implementation of the Popup API from vim in Neovim
 	use("nvim-lua/plenary.nvim") -- Useful lua functions used ny lots of plugins
 	use("jiangmiao/auto-pairs") -- auto pairs helps to close brackets
-	use("9mm/vim-closer") -- closes brackets or sentences, useful for js where we have to click enter and write. this fills it.
+	-- use("9mm/vim-closer") -- closes brackets or sentences, useful for js where we have to click enter and write. this fills it.
 	use("numToStr/Comment.nvim") -- Easily comment stuff
 	use("kyazdani42/nvim-web-devicons") -- web devicons
 	use("kyazdani42/nvim-tree.lua") -- Nvim tree
@@ -87,7 +87,7 @@ return packer.startup(function(use)
 	use("aprakash7/nvcode-color-schemes.vim") --new colorscheme for behave
 
 	-- CSS
-	use("rstacruz/vim-hyperstyle") -- CSS autocomplete helps, like m: will do margin:
+	--use("rstacruz/vim-hyperstyle") -- CSS autocomplete helps, like m: will do margin:
 
 	-- LSP installer
 	use("neovim/nvim-lspconfig")
