@@ -111,7 +111,7 @@ return packer.startup(function(use)
 	use("lewis6991/impatient.nvim") --faster loading
 
 	--INDENTATION
-	--use "lukas-reineke/indent-blankline.nvim"
+	use "lukas-reineke/indent-blankline.nvim"
 
 
     -- Automatically set up your configuration after cloning packer.nvim
